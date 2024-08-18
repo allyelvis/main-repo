@@ -7,7 +7,7 @@ deploy_app() {
 
   echo "Deploying $app_dir..."
 
-  cd "$app_dir" || exit 1
+  cd "$app_dir"
 
   # Pull the latest changes from the repository
   git pull origin main
